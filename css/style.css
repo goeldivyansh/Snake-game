@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background: url(../img/bg.jpg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreBox {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    font-size: 38px;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#hiscoreBox {
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    font-size: 38px;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#board {
+    background: linear-gradient(rgb(185, 228, 185), rgb(221, 221, 164));
+    width: 90vmin;
+    height: 90vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.head {
+    background: linear-gradient(rgb(255, 166, 166), rgb(226, 24, 176));
+    border: 2px solid purple;
+    border-radius: 6px;
+    transform: scale(1.1);
+}
+
+.snake {
+    background-color: rgb(146, 35, 146);
+    border: .25vmin solid white;    
+    border-radius: 6px;
+}
+
+.food{
+    background: linear-gradient(rgb(112, 224, 112),rgba(13, 158, 13, 0.623));
+    border: .25vmin solid black;
+    border-radius: 6px;
+}
+
