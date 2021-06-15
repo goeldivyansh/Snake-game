@@ -13,10 +13,42 @@
     align-items: center;
 }
 
+.buttonSize {
+    padding: 0%;
+    min-height: 10px;
+    min-width: 38px;
+    border: 1.5px solid black;
+    /* background: linear-gradient(rgb(204, 204, 204), white); */
+    background: linear-gradient(rgb(185, 228, 185), rgb(221, 221, 164));
+    position: absolute;
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#topButton {
+    bottom: 110px;
+    left: 100px;
+    font-weight: 900;
+}
+#leftButton {
+    bottom: 65px;
+    left: 55px;
+}
+#rightButton {
+    bottom: 65px;
+    left: 145px;
+}
+#downButton {
+    bottom: 20px;
+    left: 100px;
+}
+
 #scoreBox {
     position: absolute;
     top: 20px;
-    right: 100px;
+    right: 120px;
     font-size: 38px;
     font-weight: bold;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -41,21 +73,24 @@
 }
 
 .head {
-    background: linear-gradient(rgb(255, 166, 166), rgb(226, 24, 176));
+    /* background: linear-gradient(rgb(40, 197, 25), rgb(48, 172, 79)); */
+    /* background-color: #1C8D73; */
+    background-color: red;
     border: 2px solid purple;
     border-radius: 6px;
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .snake {
-    background-color: rgb(146, 35, 146);
+    background-color: #3DBE29;
     border: .25vmin solid white;    
     border-radius: 6px;
 }
 
 .food{
-    background: linear-gradient(rgb(112, 224, 112),rgba(13, 158, 13, 0.623));
-    border: .25vmin solid black;
+    /* background: linear-gradient(rgb(112, 224, 112),rgba(13, 158, 13, 0.623)); */
+    background-color: #DDD101;
+    border: .25vmin solid #AF9D5A;
     border-radius: 6px;
 }
 
